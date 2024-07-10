@@ -1,0 +1,69 @@
+.paragraphe-section{
+    width:546px ;
+    height: 60.8px;
+    padding:16px 0px 0px;
+}
+.img-back{
+    background: url('img/netflix-background-image-25.jpg') no-repeat center center/cover;
+    position: relative;
+}
+input{
+    display: flex;
+    width: 364.75px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Police-button{
+    font-size: 1.5em;
+
+}
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    
+    border-bottom : 10px solid rgb(59, 58, 58);
+}
+.input-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+   justify-content: space-between;
+   text-align: center;
+
+}
+form.input-form{
+    width: 586px;
+    height: 56px;
+padding: 16px 117.463px 0px ;
+}
+
+.input-form input {
+   display: flex;
+    padding: 24px 16px 8px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-between;
+    
+}
+
+button {
+    width: 213.25px;
+    height: 56px;
+    padding: auto;;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-form input:focus, .input-form button:focus {
+    outline: none;
+    
+}

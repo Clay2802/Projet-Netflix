@@ -1,0 +1,64 @@
+.footer {
+    background-color: black;
+    padding: 0px 48px ;
+    color:black;
+    font-size: 14px;
+}
+
+.footer-container {
+    margin: 70px 120px;
+    padding: 0 48px;
+}
+
+.footer-row {
+    margin-bottom: 20px;
+}
+.footer-link {
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.footer-links li {
+    flex: 1 1 calc(25% - 20px);
+    min-width: 200px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-lang-select select {
+    background-color: #141414;
+    color: #757575;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-lang-select select:focus {
+    outline: none;
+}
+
+.footer p {
+    margin: 0;
+    color: #fffefe;
+}
